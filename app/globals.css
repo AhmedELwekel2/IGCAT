@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-plex-arabic: "IBM Plex Sans Arabic", Tahoma, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-navy font-body antialiased;
+}
+
+/* Section heading underline accent */
+.section-kicker {
+  @apply inline-flex items-center gap-2 text-sm font-bold tracking-wide text-orange uppercase;
+}
+
+.section-title {
+  @apply font-heading font-bold text-navy text-3xl sm:text-4xl lg:text-5xl leading-tight;
+}
+
+/* Reveal-on-scroll helper */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hide scrollbar for horizontal product scroll on touch */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
