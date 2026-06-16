@@ -37,7 +37,7 @@ export default function Navbar() {
               <a
                 href={l.href}
                 className={`text-sm font-bold transition-colors hover:text-orange ${
-                  scrolled ? "text-navy" : "text-navy"
+                  scrolled ? "text-navy" : "text-white"
                 }`}
               >
                 {l.label}
@@ -61,9 +61,9 @@ export default function Navbar() {
           onClick={() => setOpen((v) => !v)}
           className="lg:hidden flex flex-col gap-1.5 p-2"
         >
-          <span className={`h-0.5 w-6 bg-navy transition ${open ? "translate-y-2 rotate-45" : ""}`} />
-          <span className={`h-0.5 w-6 bg-navy transition ${open ? "opacity-0" : ""}`} />
-          <span className={`h-0.5 w-6 bg-navy transition ${open ? "-translate-y-2 -rotate-45" : ""}`} />
+          <span className={`h-0.5 w-6 transition ${scrolled || open ? "bg-navy" : "bg-white"} ${open ? "translate-y-2 rotate-45" : ""}`} />
+          <span className={`h-0.5 w-6 transition ${scrolled || open ? "bg-navy" : "bg-white"} ${open ? "opacity-0" : ""}`} />
+          <span className={`h-0.5 w-6 transition ${scrolled || open ? "bg-navy" : "bg-white"} ${open ? "-translate-y-2 -rotate-45" : ""}`} />
         </button>
       </nav>
 

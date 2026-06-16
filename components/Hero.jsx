@@ -5,8 +5,8 @@ export default function Hero() {
     <section id="top" className="relative min-h-[100svh] flex items-center overflow-hidden">
       {/* Background */}
       <Image
-        src="/images/hero-tahi.jpg"
-        alt="طبق من فنون الطهي المحلية"
+        src="/images/Rijal_Almaa_village_2021.jpg"
+        alt="قرية رجال ألمع التراثية"
         fill
         priority
         sizes="100vw"
