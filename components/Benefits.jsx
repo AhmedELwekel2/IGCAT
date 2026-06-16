@@ -18,12 +18,8 @@ export default function Benefits() {
       <div className="mx-auto max-w-content px-4 sm:px-6">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <Reveal>
-            <span className="section-kicker text-orange">
-              <span className="h-px w-8 bg-orange" />
-              لماذا فنون الطهي؟
-            </span>
-            <h2 className="font-heading font-bold text-3xl sm:text-4xl lg:text-5xl mt-4 leading-tight">
-              فنون الطهي ليست مجرد طعام
+            <h2 className="font-heading font-bold text-3xl sm:text-4xl lg:text-5xl leading-tight">
+              لماذا فنون الطهي
             </h2>
             <p className="mt-5 text-white/70 leading-loose">
               إنها رابط يجمع بين الثقافة والتاريخ والزراعة والهوية والإبداع والمكان.

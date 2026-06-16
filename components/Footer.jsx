@@ -7,9 +7,6 @@ export default function Footer() {
       {/* Partners */}
       <div className="border-b border-white/10">
         <div className="mx-auto max-w-content px-4 sm:px-6 py-12">
-          <p className="text-center text-sm font-bold tracking-wide text-white/60 mb-8">
-            بالشراكة مع
-          </p>
           <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-8">
             <Image src="/images/logo-igcat.png" alt="IGCAT" width={150} height={48} className="h-10 w-auto brightness-0 invert opacity-90" />
             <Image src="/images/logo-cac.png" alt="هيئة فنون الطهي" width={170} height={54} className="h-12 w-auto brightness-0 invert opacity-90" />
@@ -40,9 +37,6 @@ export default function Footer() {
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a href="mailto:info@igcat.org" className="rounded-full bg-orange px-6 py-3 text-sm font-bold text-white transition hover:bg-amber">
-                انضم كشريك
-              </a>
-              <a href="#top" className="rounded-full border border-white/30 px-6 py-3 text-sm font-bold text-white transition hover:bg-white hover:text-navy">
                 العودة للأعلى
               </a>
             </div>

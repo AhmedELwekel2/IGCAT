@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 
 const links = [
   { href: "#about", label: "عن المعهد" },
@@ -32,17 +31,6 @@ export default function Navbar() {
       }`}
     >
       <nav className="mx-auto max-w-content px-4 sm:px-6 flex items-center justify-between gap-4">
-        <a href="#top" className="flex items-center gap-3 shrink-0">
-          <Image
-            src="/images/logo-cac.png"
-            alt="هيئة فنون الطهي"
-            width={150}
-            height={48}
-            className="h-10 w-auto"
-            priority
-          />
-        </a>
-
         <ul className="hidden lg:flex items-center gap-7">
           {links.map((l) => (
             <li key={l.href}>

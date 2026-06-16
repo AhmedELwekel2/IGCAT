@@ -56,7 +56,7 @@ export default function Products() {
             تحدي هدايا الطعام
             <span className="h-px w-8 bg-orange" />
           </span>
-          <h2 className="section-title mt-4">المنتجات الفائزة</h2>
+          <h2 className="section-title mt-4">المنتجات الفائزة لعام 2024</h2>
           <p className="mt-5 text-navy/65 leading-loose">
             تصاميمٌ تحتفي بالتراث العسيري وتعيد تصوّره بلغة معاصرة — من حبوب البن إلى
             أبراج القصبة، حكايةٌ في كل قطعة.

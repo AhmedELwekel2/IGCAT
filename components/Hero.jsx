@@ -22,23 +22,23 @@ export default function Hero() {
           </span>
 
           <h1 className="mt-6 font-heading font-bold leading-[1.1] text-4xl sm:text-6xl lg:text-7xl">
-            جدة والطائف
+            مرحبا بكم
             <span className="block text-2xl sm:text-4xl lg:text-5xl mt-3 font-medium text-sand">
-              نحو منطقة عالمية لفنون الطهي
+              في ورشة العمل لمشروع جدة والطائف منطقة طهي عالمية
             </span>
           </h1>
 
           <p className="mt-6 text-base sm:text-lg text-white/90 leading-relaxed max-w-2xl">
-            رحلة تحتفي بالتراث والثقافة والمطبخ المحلي والاستدامة والابتكار. تعمل جدة
-            والطائف معًا على بناء وجهة عالمية رائدة تجعل من فنون الطهي وسيلة للحفاظ على
-            الهوية الثقافية، وتعزيز التنمية الاقتصادية، وتمكين المجتمعات المحلية، ودعم
-            السياحة المستدامة.
+            دعم تطوير ملف الترشيح بأفكار ومبادرات مبتكرة (قائمة أو ستقام مستقبلاً) ترتبط
+            بكل ركيزة من الركائز الست. وسيتم هذا عن طريق:
           </p>
 
-          <p className="mt-4 text-base sm:text-lg text-white/80 leading-relaxed max-w-2xl">
-            اكتشف كيف يسهم المزارعون والطهاة والحرفيون ورواد الأعمال والمجتمعات المحلية
-            في صناعة مستقبل قائم على الأصالة والتميز.
-          </p>
+          <ul className="mt-4 space-y-2 text-base sm:text-lg text-white/85 leading-relaxed max-w-2xl list-disc pr-6">
+            <li>التعرف على محاور IGCAT الست التي تُبنى عليها ملفات الترشيح.</li>
+            <li>استعراض أمثلة نوعية لمبادرات تم تنفيذها فعليًا ضمن كل محور.</li>
+            <li>تحليل المبادرات واستخلاص ما يمكن تكييفه محليًا.</li>
+            <li>استلهام أفكار جديدة قابلة للتنفيذ في جدة والطائف.</li>
+          </ul>
 
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a

@@ -44,7 +44,7 @@ export default function About() {
               </div>
               <div className="absolute -bottom-6 -right-4 sm:-right-6 rounded-2xl bg-orange px-6 py-5 text-white shadow-xl max-w-[220px]">
                 <div className="font-heading font-bold text-xl leading-snug">
-                  فنون الطهي وسيلة للحفاظ على الهوية
+                  ترشيح جدة والطائف كمنطقة طهي عالمية
                 </div>
               </div>
             </div>
